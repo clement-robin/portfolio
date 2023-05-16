@@ -2,7 +2,7 @@ import {
     uqac,
     isty,
     uvsq,
-    creator,
+    front,
 
     bilstein,
     gpso,
@@ -34,9 +34,14 @@ import {
     git,
 
     github,
-    carrent,
-    jobit,
-    tripguide,
+
+    wargame,
+    parser,
+    rescueindoor,
+    todoapp,
+    manvrwild,
+    ia,
+
   } from "../assets";
   
   export const navLinks = [
@@ -68,8 +73,8 @@ import {
       icon: uvsq,
     },
     {
-      title: "?????????????",
-      icon: creator,
+      title: "Developer",
+      icon: front,
     },
   ];
   
@@ -207,7 +212,7 @@ import {
       ],
     },
     {
-      title: "Barman/Waiter/Busboy/Cook",
+      title: "Barman / Waiter / Busboy / Cook",
       company_name: "Bistrot du Fjord",
       icon: fjord,
       iconBg: "#E6DEDD",
@@ -223,108 +228,92 @@ import {
 
   const projects = [
     {
-      name: "Car Rent",
+      name: "Wargame",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Wargame is a turn-based tactical game allowing to simulate battles. This project is realized by 5 students and is entirely developed in Java. There is the possibility to edit the map before playing, to play with AI players. During the game, there are several random event",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          name: "Java",
+          color: "yellow-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: wargame,
+      source_code_link: "https://github.com/clement-robin/Wargame",
     },
     {
-      name: "Job IT",
+      name: "Parser",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This project aims to implement an SLR analyzer. The program then displays the corresponding LR parser with, line by line, the action, the stream and the stack. Moreover, if the word is accepted by the grammar, the program also displays the parse tree.",
       tags: [
         {
-          name: "react",
+          name: "C",
           color: "blue-text-gradient",
         },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: parser,
+      source_code_link: "https://github.com/clement-robin/CompilerParser",
     },
     {
-      name: "Trip Guide",
+      name: "Indoor delivery Robot",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "In a group of 8 students we aimed to improve a basic 4 wheels robot. We added a trailer to it for hold the mail he needs to deliver that I modeled. Additionally, I realized the Frontend part of the user interface of the system.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "Arduino",
+          color: "cyan-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "Fusion360",
+          color: "orange-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },{
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: rescueindoor,
+      source_code_link: "https://github.com/clement-robin/RescueIndoor",
     },
     {
-      name: "Trip Guide",
+      name: "ToDoApp",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "We realise an Android app, that create customizable to-do lists, add, modify, and delete tasks in lists, share lists in real-time with other users, set due dates for tasks, automatic detection of duplicates in tasks to avoid redundancy and make instant synchronization of updates between multiple users sharing a list",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "Java",
+          color: "yellow-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Kotlin",
           color: "green-text-gradient",
         },
+      ],
+      image: todoapp,
+      source_code_link: "https://github.com/clement-robin/ToDoApp",
+    },
+    {
+      name: "ManVRWild",
+      description:
+        "In this virtual reality simulation, we have created the following scene: the player finds himself in the forest and we guide him on the first gestures to make. He can interact with his environment by picking up objects and moving around. The goal is to learn the first gestures of survival: making fire.",
+      tags: [
         {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "Unreal",
+          color: "gray-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: manvrwild,
+    },
+    {
+      name: "Classification by IA",
+      description:
+        "In this work, we manipulate the creation of convolutional neural network architecture and use the concept of transfer learning to adapt a pre-trained architecture to an image data set. With a data set of fruit photographed from all angles, the model is trained to classify a fruit among those it knows.",
+      tags: [
+        {
+          name: "Python",
+          color: "red-text-gradient",
+        },
+      ],
+      image: ia,
     },
   ];
   
