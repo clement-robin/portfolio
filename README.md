@@ -1,7 +1,7 @@
 # Portfolio
 
-My portfolio present me, my experiences, my skils and projects.
-
+My portfolio present : myself, my experiences, skills and projects. 
+[
 ## Techs used
 
 - React
@@ -9,7 +9,7 @@ My portfolio present me, my experiences, my skils and projects.
 - Three.js
 
 
-## Instalatlation
+## Installation
 
 To run in local
 
