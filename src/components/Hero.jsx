@@ -8,7 +8,7 @@ import { slideIn } from '../utils/motion'
 
 const Hero = () => {
   return (
-    <div className="xl:flex-row flex-col*reverse flex relative h-screen">
+    <div className="xl:flex-row flex-col*reverse flex relative  xs:h-screen h-[300px]">
       <motion.div
         variants={slideIn('left',"tween",0.2, 1)}
         className="w-4/5"

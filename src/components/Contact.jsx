@@ -45,7 +45,7 @@ const Contact = () => {
       setForm({
         name:'',
         email:'',
-        
+        message:'',
       })
     })
   }

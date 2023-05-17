@@ -10,7 +10,7 @@ import { Tilt } from 'react-tilt';
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => { 
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index, 0)}>
       <Tilt
         options ={{
           max : 45,
@@ -76,7 +76,7 @@ const Works = () => {
           variants={fadeIn("","", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eius ipsam omnis atque ducimus, doloremque voluptatem quas fugit accusantium deleniti obcaecati, voluptatum quae voluptate qui eveniet iste debitis totam architecto.
+          Some of the work I have done during my school years        
         </motion.p>
       </div>
 
