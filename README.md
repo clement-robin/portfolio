@@ -9,7 +9,7 @@ My portfolio present me, my experiences, my skils and projects.
 - Three.js
 
 
-## Instalatlation
+## Instalation
 
 To run in local
 
