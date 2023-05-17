@@ -10,7 +10,7 @@ import { Tilt } from 'react-tilt';
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => { 
   return (
-    <motion.div variants={fadeIn("up", "spring", index, 0)}>
+    <div>
       <Tilt
         options ={{
           max : 45,
@@ -58,7 +58,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           ) )}
         </div>
       </Tilt>
-    </motion.div>
+    </div>
   )
 }
 
@@ -66,18 +66,15 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div>
         <p className={styles.sectionSubText}>Some of my projects</p>
         <h2 className={styles.sectionHeadText}>My work.</h2>
-      </motion.div>
+      </div>
 
       <div className="w-full flex">
-        <motion.p
-          variants={fadeIn("","", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify"
-        >
+        <p className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify">
           Some of the work I have done during my school years        
-        </motion.p>
+        </p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">

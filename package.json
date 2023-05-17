@@ -1,7 +1,7 @@
 {
-  "name": "3d_portfolio",
+  "name": "portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "homepage": "https://clement-robin.github.io/portfolio/",
   "scripts": {
@@ -41,6 +41,6 @@
     "post": "^0.0.1",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2",
-    "vite": "^4.3.2"
+    "vite": "^4.3.7"
   }
 }

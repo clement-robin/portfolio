@@ -168,7 +168,7 @@ import {
       points: [
         "Summer job",
         "Outdoor work to keep roads in good condition.",
-        "Painting of road markings, maintenance of green spaces, repairing of urban furniture",
+        "Painting of road markings, maintenance of green spaces, repairing of urban furniture.",
       ],
     },
     {
@@ -230,7 +230,7 @@ import {
     {
       name: "Wargame",
       description:
-        "Wargame is a turn-based tactical game allowing to simulate battles. This project is realized by 5 students and is entirely developed in Java. There is the possibility to edit the map before playing, to play with AI players. During the game, there are several random event",
+        "Wargame is a turn-based tactical game allowing to simulate battles. This project is realized by 5 students and is entirely developed in Java. There is the possibility to edit the map before playing, to play with AI players. During the game, there are several random event.",
       tags: [
         {
           name: "Java",
@@ -277,7 +277,7 @@ import {
     {
       name: "ToDoApp",
       description:
-        "We realise an Android app, that create customizable to-do lists, add, modify, and delete tasks in lists, share lists in real-time with other users, set due dates for tasks, automatic detection of duplicates in tasks to avoid redundancy and make instant synchronization of updates between multiple users sharing a list",
+        "We realise an Android app, that create customizable to-do lists, add, modify, and delete tasks in lists, share lists in real-time with other users, set due dates for tasks, automatic detection of duplicates in tasks to avoid redundancy and make instant synchronization of updates between multiple users sharing a list.",
       tags: [
         {
           name: "Java",
