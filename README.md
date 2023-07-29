@@ -14,7 +14,7 @@ My portfolio present : myself, my experiences, skills and projects.
 To run in local
 
 ```bash
-  npm run test
+  npm run dev
 ```
 
 To run build dependencies
