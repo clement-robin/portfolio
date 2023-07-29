@@ -29,6 +29,6 @@ To deploy on Github Pages
   npm run deploy
 ```
 
-## Authors
+## Author
 
 [@clement-robin](https://www.github.com/clement-robin)
