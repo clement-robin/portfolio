@@ -1,7 +1,7 @@
 # Portfolio
 
 My portfolio present : myself, my experiences, skills and projects. 
-[
+
 ## Techs used
 
 - React
