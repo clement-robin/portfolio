@@ -14,19 +14,19 @@ My portfolio present : myself, my experiences, skills and projects.
 To run in local
 
 ```bash
-  npm run dev
+npm run dev
 ```
 
 To run build dependencies
 
 ```bash
-  npm run build
+npm run build
 ```
 
 To deploy on Github Pages
 
 ```bash
-  npm run deploy
+npm run deploy
 ```
 
 ## Author
