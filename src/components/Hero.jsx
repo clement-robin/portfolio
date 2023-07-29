@@ -37,7 +37,7 @@ const Hero = () => {
               className="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg py-2.5 sm:py-3 shadow-lg rounded-lg bg-[#915EFF] text-white hover:bg-white hover:text-[#915EFF] duration-100"
             >
               <span className="text-sm sm:text-lg font-general-medium duration-100 cursor-pointer">
-                Download CV
+                Download Resume
               </span>
             </a>
           </div>

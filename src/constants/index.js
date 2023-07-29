@@ -216,7 +216,7 @@ import {
       company_name: "Bistrot du Fjord",
       icon: fjord,
       iconBg: "#E6DEDD",
-      date: "October 2022 - Present",
+      date: "October 2022 - July 2023",
       points: [
         "Student work",
         "Preparation of congresses, dinners, events, theme parties.",
